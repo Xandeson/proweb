@@ -1,19 +1,14 @@
-body {
-    width: 100%;
-    height: 100%;
-
-}
 .logo{
     margin: 0;
     position: absolute; 
     top: 10px; 
-    left: 7%; 
+    left: 12%; 
     transform: translateX(-50%); 
     z-index: 1;
 }
 
 .navbar {
-    padding: 6% 3% 0 12%;
+    padding: 6% 5% 0 16%;
 }
 
 nav, header {
@@ -36,9 +31,13 @@ nav button {
     background-color: #EA0680;
 }
 
+.section-carrossel {
+    margin-bottom: 50px;
+}
+
 main {
-    min-height: 471px;
     padding-top: 4%;
+    padding-bottom: 5px;
     background: linear-gradient(180deg, rgba(62,19,121,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 85%, rgba(234,6,128,1) 100%);
 }
 
@@ -149,9 +148,25 @@ main {
     background-color: #ffffff;
 }
 
+.hot-news {
+    margin-left: 15%;
+    margin-bottom: 3%;
+}
+
+.destaques {
+    margin-left: 2%;
+    margin-top: 2%;
+    gap: 5%
+}
+
+.cards-news {
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
 .footer-style {
+    margin: 0;
     background-color: #EA0680;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
