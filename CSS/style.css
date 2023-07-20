@@ -164,6 +164,20 @@ main {
     margin-right: 10%;
 }
 
+.card-title {
+    color: #EA0680;
+}
+
+.card-text {
+    color:#af1e6c;
+}
+
+a {
+    font-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
 .footer-style {
     margin: 0;
     background-color: #EA0680;
