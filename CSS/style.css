@@ -12,8 +12,12 @@ body {
 }
 
 .navbar {
-    padding: 6% 5% 1% 16%;
+    padding: 6% 2% 1% 16%;
 }
+.navbar a{
+    text-decoration:none;
+}
+
 
 nav, header {
     background-color: #3E1379;
@@ -37,6 +41,7 @@ nav button {
 
 .icon a {
     color: #ffffff;
+    padding-left: 8%;
 }
 
 .icon a:hover {
@@ -113,8 +118,3 @@ main{
       font-size: 16px;
     }
   }
-
-.bk{
-    background: linear-gradient( rgba(255,255,255,1) 85%, rgba(234,6,128,1) 100%;
- 
-}
