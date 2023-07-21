@@ -1,4 +1,120 @@
-.logo{
-
+body {
+    font-size: 16px;
 }
 
+.logo{
+    margin: 0;
+    position: absolute; 
+    top: 10px; 
+    left: 12%; 
+    transform: translateX(-50%); 
+    z-index: 1;
+}
+
+.navbar {
+    padding: 6% 5% 1% 16%;
+}
+
+nav, header {
+    background-color: #3E1379;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.navbar .dropdown-menu {
+    background-color: #ffffff;
+}
+
+.dropdown-item {
+    color: black;
+}
+nav button {
+    background-color: #EA0680;
+}
+
+.icon a {
+    color: #ffffff;
+}
+
+.icon a:hover {
+    color:#EA0680;
+}
+
+main{
+    padding-top: 4%;
+    padding-bottom: 5px;
+}
+
+.hot-news {
+    margin-left: 15%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.destaques {
+    margin-left: 2%;
+    margin-top: 2%;
+    gap: 5%
+}
+
+.cards-news {
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.card-title {
+    color: #EA0680;
+}
+
+.card-text {
+    color:#af1e6c;
+}
+
+.cards-news a {
+    font-style: none;
+    text-decoration: none;
+}
+
+.hot-news a {
+    font-style: none;
+    text-decoration: none;
+}
+
+.footer-style {
+    margin: 0;
+    background-color: #EA0680;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-style a {
+    color: #fdfdfd;
+    font-style: none;
+    text-decoration: none;
+}
+
+  @media (max-width: 768px) {
+    body {
+      font-size: 12px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+  }
+
+.bk{
+    background: linear-gradient( rgba(255,255,255,1) 85%, rgba(234,6,128,1) 100%;
+ 
+}
