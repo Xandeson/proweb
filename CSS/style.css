@@ -31,7 +31,7 @@ nav button {
     background-color: #EA0680;
 }
 
-main {
+main{
     padding-top: 4%;
     padding-bottom: 5px;
     background: linear-gradient(180deg, rgba(234,6,128,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 85%, rgba(234,6,128,1) 100%);
@@ -40,6 +40,7 @@ main {
 .hot-news {
     margin-left: 15%;
     margin-bottom: 3%;
+    margin-top: 3%;
 }
 
 .destaques {
@@ -85,3 +86,7 @@ main {
     text-decoration: none;
 }
 
+.bk{
+    background: linear-gradient( rgba(255,255,255,1) 85%, rgba(234,6,128,1) 100%;
+ 
+}
