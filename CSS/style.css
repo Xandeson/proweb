@@ -35,6 +35,14 @@ nav button {
     background-color: #EA0680;
 }
 
+.icon a {
+    color: #ffffff;
+}
+
+.icon a:hover {
+    color:#EA0680;
+}
+
 main {
     padding-top: 4%;
     padding-bottom: 5px;
