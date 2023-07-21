@@ -1,3 +1,7 @@
+body {
+    font-size: 16px;
+}
+
 .logo{
     margin: 0;
     position: absolute; 
@@ -31,10 +35,17 @@ nav button {
     background-color: #EA0680;
 }
 
+.icon a {
+    color: #ffffff;
+}
+
+.icon a:hover {
+    color:#EA0680;
+}
+
 main{
     padding-top: 4%;
     padding-bottom: 5px;
-    background: linear-gradient(180deg, rgba(234,6,128,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 85%, rgba(234,6,128,1) 100%);
 }
 
 .hot-news {
@@ -65,7 +76,6 @@ main{
 .cards-news a {
     font-style: none;
     text-decoration: none;
-    display: flex;
 }
 
 .hot-news a {
@@ -85,6 +95,24 @@ main{
     font-style: none;
     text-decoration: none;
 }
+
+  @media (max-width: 768px) {
+    body {
+      font-size: 12px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+  }
 
 .bk{
     background: linear-gradient( rgba(255,255,255,1) 85%, rgba(234,6,128,1) 100%;
