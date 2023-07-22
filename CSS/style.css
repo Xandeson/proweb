@@ -12,12 +12,11 @@ body {
 }
 
 .navbar {
-    padding: 6% 2% 1% 16%;
+    padding: 3% 2% 1% 16%;
 }
 .navbar a{
     text-decoration:none;
 }
-
 
 nav, header {
     background-color: #3E1379;
@@ -29,34 +28,50 @@ nav, header {
 }
 
 .navbar .dropdown-menu {
-    background-color: #ffffff;
+    background-color:#4f3475;
 }
 
 .dropdown-item {
-    color: black;
+    color:white;
 }
 nav button {
     background-color: #EA0680;
 }
 
+.navbar-nav .nav-item:hover .nav-link {
+    color:#ECD235;
+    font-size: 1.05rem;
+}
+
+.icon {
+    width: 20%;
+}
+
 .icon a {
     color: #ffffff;
-    padding-left: 8%;
+    padding-top: 2%;
+    padding-left: 6%;
 }
 
 .icon a:hover {
-    color:#EA0680;
+    color:#ECD235;
 }
 
 main{
     padding-top: 4%;
     padding-bottom: 5px;
+    background: linear-gradient(180deg, rgba(236,210,53,0.6839985994397759) 0%, rgba(255,255,255,1) 49%, rgba(236,210,53,0.8212535014005602) 100%);
 }
 
 .hot-news {
     margin-left: 15%;
     margin-bottom: 3%;
     margin-top: 3%;
+}
+
+.hot-news a {
+    font-style: none;
+    text-decoration: none;
 }
 
 .destaques {
@@ -71,11 +86,12 @@ main{
 }
 
 .card-title {
-    color: #EA0680;
+    color:#EA0680;
 }
 
 .card-text {
-    color:#af1e6c;
+    margin: 5px;
+    color:#ffffff;
 }
 
 .cards-news a {
@@ -83,13 +99,11 @@ main{
     text-decoration: none;
 }
 
-.hot-news a {
-    font-style: none;
-    text-decoration: none;
+.card {
+    background-color:#3E1379;
 }
 
 .footer-style {
-    margin: 0;
     background-color: #EA0680;
     bottom: 0;
     width: 100%;
@@ -97,24 +111,34 @@ main{
 
 .footer-style a {
     color: #fdfdfd;
-    font-style: none;
-    text-decoration: none;
 }
 
-  @media (max-width: 768px) {
-    body {
-      font-size: 12px;
-    }
-  }
+.footer-style a:hover {
+    font-size: 1.05rem;
+}
 
-  @media (min-width: 768px) and (max-width: 1024px) {
-    body {
-      font-size: 14px;
-    }
+.links {
+    margin: 10px 0;
+}
+.termos {
+    text-align: right;
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
   }
-  
-  @media (min-width: 1024px) {
-    body {
-      font-size: 16px;
-    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 14px;
   }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+}
