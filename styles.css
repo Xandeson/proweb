@@ -6,11 +6,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #4f3475;
   }
   
   .signup-container {
-    background-color: #ffffff;
+    background-color: #ECD235;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -37,9 +37,19 @@ body {
     border-radius: 3px;
   }
   
-  button {
+ .b1 {
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #c71610;
+    margin-bottom: 7px;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .b2 {
+    padding: 10px;
+    background-color: #3b5998;
     color: #ffffff;
     border: none;
     border-radius: 3px;
@@ -47,6 +57,6 @@ body {
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #0f9d24;
   }
   
