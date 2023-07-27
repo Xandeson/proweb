@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página de Cadastro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="signup-container">
+    <h2>Cadastro</h2>
+    <form>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Celular:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="contact-option">Opção de Contato:</label>
+      <select id="contact-option" name="contact-option">
+        <option value="email">Email</option>
+        <option value="phone">Telefone</option>
+      </select>
+
+      <button type="submit">Cadastrar por Email</button>
+      <button type="button" onclick="registerWithFacebook()">Cadastrar pelo Facebook</button>
+    </form>
+  </div>
+
+  <script>
+    function registerWithFacebook() {
+      // Lógica para o cadastro com Facebook aqui
+      alert("Cadastro com Facebook em construção...");
+    }
+  </script>
+</body>
+</html>

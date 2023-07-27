@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-    padding: 3% 2% 1% 16%;
+    padding: 3% 2% 1% 14%;
 }
 .navbar a{
     text-decoration:none;
@@ -43,18 +43,28 @@ nav button {
     font-size: 1.05rem;
 }
 
+.navbar-nav .nav-item:active .nav-link {
+    color:#EA0680;
+    font-size: 1.05rem;
+}
+
 .icon {
-    width: 20%;
+    min-width: 190px;
+    margin: 0;
 }
 
 .icon a {
     color: #ffffff;
     padding-top: 2%;
-    padding-left: 6%;
+    padding-left: 5%;
 }
 
 .icon a:hover {
     color:#ECD235;
+}
+
+.icon a:active {
+    color:#EA0680;
 }
 
 main{
@@ -103,27 +113,56 @@ main{
     background-color:#3E1379;
 }
 
-.footer-style {
+.pagination {
+    margin-right: 8%;
+}
+
+ul.links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  ul.links li {
+    margin-right: 15px; 
+  }
+  
+  ul.termos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-style {
     background-color: #EA0680;
     bottom: 0;
     width: 100%;
-}
-
-.footer-style a {
+  }
+  
+  .footer-style a {
     color: #fdfdfd;
-}
-
-.footer-style a:hover {
+  }
+  
+  .footer-style a:hover {
+    color: #ECD235;
     font-size: 1.05rem;
-}
-
-.links {
+  }
+  
+  .footer-style a:active {
+    color: #3E1379;
+  }
+  
+  .links {
     margin: 10px 0;
-}
-.termos {
-    text-align: right;
+  }
+  
+  .termos {
     margin: 10px 0;
-}
+  }
+  
 
 @media (max-width: 768px) {
   body {
